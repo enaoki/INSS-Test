@@ -41,6 +41,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CalculadorInss.cs" />
+    <Compile Include="Chain\BaseHandler.cs" />
+    <Compile Include="Chain\CalculadorHandler.cs" />
+    <Compile Include="Chain\DadosHandler.cs" />
+    <Compile Include="Chain\DefinicaoHandler.cs" />
+    <Compile Include="Chain\IHandler.cs" />
+    <Compile Include="DTO\DescontoItemDTO.cs" />
+    <Compile Include="DTO\DescontoDTO.cs" />
+    <Compile Include="DTO\RequisicaoDTO.cs" />
     <Compile Include="ICalculadorInss.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
